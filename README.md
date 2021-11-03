@@ -39,4 +39,9 @@ Soon!
 
 ## Author
 
+**#1 Author**
 - LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
+
+**#2 Author**
+- LinkedIn - [#](https://github.com/user)
+- Github - [@#](https://github.com/user)
