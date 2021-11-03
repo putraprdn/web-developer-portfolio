@@ -92,6 +92,7 @@ body {
 	background: #fbe850;
 	flex-basis: 16%;
 	padding: 1rem 1rem;
+	cursor: pointer;
 }
 
 /* Test */
