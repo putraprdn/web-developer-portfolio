@@ -1,30 +1,42 @@
+# Codewell - Web Developer Portfolio
 
-# Welcome to Codewell! 👋
+This is a solution to the [Web Developer Portfolio on Codewell](https://www.codewell.cc/challenges/web-developer-portfolio--617d4897a383e41090a3e46f).
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+## Table of contents
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-### I've completed the challenge, now what?
+## Overview
 
-We recommend using one of these two websites to deploy your projects
+### The challenge
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+Users should be able to:
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+- View the optimal layout for the section depending on their device's screen size
 
+### Screenshot
 
-### Submit your solution to Codewell
+Soon!
+<!-- ![](#) -->
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+### Links
 
-### Join our community on Slack
+- Live Site URL: [Via Github](https://putraprdn.github.io/web-developer-portofolio/)
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+## My process
 
-### Fonts Used
+### Built with
 
-For headings: https://fonts.google.com/specimen/Prata
-For body: https://fonts.google.com/specimen/Inter
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+## Author
+
+- LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
