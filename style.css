@@ -53,4 +53,48 @@ select {
 ---------------- Main CSS */
 body {
 	min-height: 100vh;
+	background-color: var(--background-main);
+	font-family: var(--font-body);
+	color: white;
+	padding: 3rem 9rem;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+}
+.nav-title {
+	font-family: var(--font-head);
+	flex-basis: 30%;
+	font-weight: 100;
+}
+.nav .nav-link {
+	display: flex;
+	flex-basis: 50%;
+	font-family: var(--font-body);
+	margin-left: 3rem;
+	list-style: none;
+}	
+.nav .nav-link .nav__list {
+	margin-left: 1.5rem;
+}
+.nav .nav__list a {
+	text-decoration: none;
+	color: #adadad;
+	font-size: 1.2rem;
+}
+.nav .nav__button {
+	width: 50%;
+	font-family: var(--font-head);
+	color: black;
+	font-size: 1.2rem;
+	text-align: center;
+	background: #fbe850;
+	flex-basis: 16%;
+	padding: 1rem 1rem;
+}
+
+/* Test */
+.test {
+	font-family: var(--font-head);
 }
