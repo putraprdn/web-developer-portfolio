@@ -130,7 +130,7 @@ p {
 }
 .main__project {
 	display: flex;
-	gap: 5rem;
+	gap: 3.5rem;
 }
 .main__project-card {
 	display: flex;
@@ -142,6 +142,9 @@ p {
 }
 .main__project-title {
 	margin: 0.8rem 0 0.5rem;
+}
+.main__project-description {
+	line-height: 1.5;
 }
 
 /* Test */
