@@ -58,6 +58,11 @@ body {
 	color: white;
 	padding: 3rem 9rem;
 }
+p {
+	font-size: 1.12rem;
+	color: #adadad;
+	line-height: 1.8;
+}
 .nav {
 	display: flex;
 	align-items: center;
@@ -94,6 +99,31 @@ body {
 	padding: 1rem 1rem;
 	cursor: pointer;
 	text-decoration: none;
+}
+
+/* 
+--------------- main section  */
+.main {
+	margin-top: 5rem;
+}
+.main__title {
+	width: 70%;
+	font-family: var(--font-head);
+	font-size: 3.5rem;
+	font-weight: 100;
+}
+.main__description {
+	width: 60%;
+}
+.main__logo {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4rem;
+}
+.main__logo img {
+	width: 7rem;
+	height: 5rem;
 }
 
 /* Test */
