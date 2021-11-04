@@ -103,6 +103,10 @@ p {
 
 /* 
 --------------- main section  */
+.title {
+	font-family: var(--font-head);
+	font-weight: 100;
+}
 .main {
 	margin-top: 5rem;
 }
@@ -110,7 +114,6 @@ p {
 	width: 70%;
 	font-family: var(--font-head);
 	font-size: 3.5rem;
-	font-weight: 100;
 }
 .main__description {
 	width: 60%;
@@ -119,11 +122,26 @@ p {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 4rem;
+	margin: 4rem 0;
 }
 .main__logo img {
 	width: 6rem;
 	height: 3.5rem;
+}
+.main__project {
+	display: flex;
+	gap: 5rem;
+}
+.main__project-card {
+	display: flex;
+	flex-direction: column;
+}
+.main__project-image {
+	width: 510px;
+	height: 280px;
+}
+.main__project-title {
+	margin: 0.8rem 0 0.5rem;
 }
 
 /* Test */
