@@ -73,17 +73,17 @@ p {
 	flex-basis: 30%;
 	font-weight: 100;
 }
-.nav__link {
+.nav__list {
 	display: flex;
 	flex-basis: 50%;
 	font-family: var(--font-body);
 	margin-left: 3rem;
 	list-style: none;
 }
-.nav__list {
-	margin-left: 1.5rem;
+.nav__link:not(:last-child) {
+	margin-right: 2rem;
 }
-.nav .nav__list a {
+.nav__list-item {
 	text-decoration: none;
 	color: #adadad;
 	font-size: 1.2rem;
