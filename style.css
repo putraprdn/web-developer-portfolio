@@ -137,9 +137,9 @@ p {
 .main__project-card {
 	display: flex;
 	flex-direction: column;
+	flex-basis: 50%;
 }
 .main__project-image {
-	width: 510px;
 	height: 280px;
 }
 .main__project-title {
@@ -149,7 +149,21 @@ p {
 	line-height: 1.5;
 }
 
-/* Test */
-.test {
-	font-family: var(--font-head);
+.introduction {
+	display: flex;
+	background: var(--background-section);
+	padding-top: 3.5rem;
+	gap: 3.5rem;
+}
+.introduction__card {
+	flex-basis: 50%;
+}
+.introduction__title {
+	font-size: 2.15rem;
+	margin-bottom: 1rem;
+}
+.introduction__description {
+	margin-top: 1.3rem;
+	line-height: 1.5;
+	font-weight: 400;
 }
