@@ -56,12 +56,14 @@ body {
 	background-color: var(--background-main);
 	font-family: var(--font-body);
 	color: white;
-	padding: 3rem 9rem;
 }
 p {
 	font-size: 1.12rem;
 	color: #adadad;
 	line-height: 1.8;
+}
+.container {
+	padding: 3rem 9rem;
 }
 .nav {
 	display: flex;
