@@ -63,12 +63,14 @@ p {
 	line-height: 1.8;
 }
 .container {
-	padding: 3rem 9rem;
+	padding-right: 9rem !important;
+	padding-left: 9rem !important;
 }
 .nav {
 	display: flex;
 	align-items: center;
 	font-size: 0.8rem;
+	padding-top: 3rem;
 }
 .nav__title {
 	font-family: var(--font-head);
@@ -90,7 +92,7 @@ p {
 	color: #adadad;
 	font-size: 1.2rem;
 }
-.nav__button {
+.button {
 	width: 50%;
 	font-family: var(--font-head);
 	color: black;
@@ -110,7 +112,7 @@ p {
 	font-weight: 100;
 }
 .main {
-	margin-top: 5rem;
+	margin: 5rem 0;
 }
 .main__title {
 	width: 70%;
@@ -152,7 +154,7 @@ p {
 .introduction {
 	display: flex;
 	background: var(--background-section);
-	padding-top: 3.5rem;
+	padding: 4rem 0 4rem;
 	gap: 3.5rem;
 }
 .introduction__card {
@@ -166,4 +168,38 @@ p {
 	margin-top: 1.3rem;
 	line-height: 1.5;
 	font-weight: 400;
+}
+.join {
+	display: flex;
+	flex-direction: column;
+	padding: 4rem 0;
+}
+.join__title {
+	font-size: 2.2rem;
+	/* margin-top: 2.5rem; */
+}
+.join__description {
+	width: 51%;
+	line-height: 1.5;
+}
+.join__button {
+	width: 18%;
+	margin: 1rem 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem 0;
+	background: var(--background-section);
+}
+.footer__title {
+	font-size: 1.2rem;
+}
+.footer__icon-group {
+	display: flex;
+	flex-basis: 10%;
+}
+.footer__social-icon:not(:first-child) {
+	margin-left: 1rem;
 }
