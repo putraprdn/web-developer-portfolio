@@ -6,6 +6,7 @@ This is a solution to the [Web Developer Portfolio on Codewell](https://www.code
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [To do](#to-do)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -19,6 +20,15 @@ This is a solution to the [Web Developer Portfolio on Codewell](https://www.code
 Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
+
+### To do
+
+- [x] Main section
+- [x] Second section
+- [x] Third section
+- [x] Active state
+- [ ] Tablet responsive
+- [ ] Mobile responsive
 
 ### Screenshot
 
