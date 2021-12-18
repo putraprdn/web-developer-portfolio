@@ -206,3 +206,108 @@ p {
 .footer__social-icon:not(:first-child) {
 	margin-left: 1rem;
 }
+
+/* 
+--------------- Responsive Goes Here */
+
+/* 
+---------------- Phone */
+@media screen and (max-width: 428px) {
+	html {
+		font-size: 10px;
+	}
+
+	.container {
+		padding-left: 1.9rem !important;
+		padding-right: 1.9rem !important;
+	}
+
+	.nav__title{
+		font-size: 1.5rem;
+		flex-basis: 90%;
+	}
+	.nav__hamburger {
+		cursor: pointer;
+	}
+	.nav__list {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
+	.nav .button {
+		display: none;
+	}
+
+	.main__title,
+	.main__description {
+		width: 100%;
+	}
+	.main__description {
+		font-size: 1.5rem;
+	}
+	.main__logo {
+		padding: 0 8rem;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		column-gap: 2rem;
+	}
+	.main__logo img {
+		width: 10rem;
+		height: 4.5rem;
+	}
+	.main__logo img:nth-child(2) {
+		display: none;
+	}
+
+	.main__project {
+		flex-direction: column;
+		margin-bottom: 5rem;
+	}
+	.main__project-title {
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+	.main__project-description {
+		font-size: 1.6rem;
+	}
+	.main__project-card:first-child {
+		margin-bottom: 2rem;
+	}
+
+	.introduction {
+		flex-direction: column;
+	}
+	.introduction__title {
+		font-size: 3.15rem;
+	}
+	.introduction__description {
+		padding-right: 2rem;
+	}
+
+	.join__title {
+		font-size: 3.15rem;
+	}
+	.join__description {
+		width: 100%;
+	}
+	.join__button {
+		width: 40%;
+		font-size: 1.6rem;
+		padding: 1.5rem 2.5rem;
+	}
+
+	.footer {
+		padding: 2.5rem 5rem !important;
+	}
+	.footer__title {
+		font-size: 1.5rem;
+	}
+	.footer__icon-group {
+		flex-basis: unset;
+	}
+}
