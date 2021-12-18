@@ -112,15 +112,15 @@ p {
 	font-weight: 100;
 }
 .main {
-	margin: 5rem 0;
+	margin-top: 5rem;
 }
 .main__title {
-	width: 70%;
+	width: 73%;
 	font-family: var(--font-head);
 	font-size: 3.5rem;
 }
 .main__description {
-	width: 60%;
+	width: 65%;
 }
 .main__logo {
 	width: 100%;
@@ -135,6 +135,7 @@ p {
 .main__project {
 	display: flex;
 	gap: 3.5rem;
+	margin-bottom: 4rem;
 }
 .main__project-card {
 	display: flex;
@@ -146,9 +147,11 @@ p {
 }
 .main__project-title {
 	margin: 0.8rem 0 0.5rem;
+	font-size: 2rem;
 }
 .main__project-description {
 	line-height: 1.5;
+	font-size: 0.95rem;
 }
 
 .introduction {
