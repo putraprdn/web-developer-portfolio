@@ -20,6 +20,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -71,6 +75,9 @@ p {
 	align-items: center;
 	font-size: 0.8rem;
 	padding-top: 3rem;
+}
+.nav__hamburger {
+	display: none;
 }
 .nav__title {
 	font-family: var(--font-head);
@@ -212,46 +219,86 @@ p {
 
 /* 
 ---------------- Phone */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
 	html {
 		font-size: 10px;
 	}
 
 	.container {
-		padding-left: 1.9rem !important;
-		padding-right: 1.9rem !important;
+		padding-left: 5.5rem !important;
+		padding-right: 5.5rem !important;
 	}
 
-	.nav__title{
+	.nav {
+		position: fixed;
+		width: 100%;
+		/* height: 100%; */
+		padding-top: 0;
+		/* overflow: visible; */
+		/* z-index: 10; */
+	}
+	.nav__title {
 		font-size: 1.5rem;
-		flex-basis: 90%;
+		flex-basis: 95%;
 	}
 	.nav__hamburger {
+		display: block;
 		cursor: pointer;
 	}
 	.nav__list {
 		position: absolute;
-		display: flex;
+		margin: 0;
+		padding: 3rem 0;
+		row-gap: 2.5rem;
+		align-items: center;
 		flex-direction: column;
-		display: none;
+		/* display: none; */
+		background-color: var(--background-section);
+		top: 4rem;
+		left: 0;
+		right: 0;
+		transition: all 0.8s;
+		transform: translateX(100%);
+		opacity: 0;
 	}
+	.active {
+		display: flex !important;
+		transform: translateX(0%);
+		opacity: 1;
+	}
+	.nav__link {
+		margin: 0 !important;
+	}
+	.nav__list-item {
+		font-size: 1.5rem;
+	}
+
 	.nav .button {
 		display: none;
 	}
 
+	.main {
+		padding-top: 8rem;
+	}
+	.main__title {
+		font-size: 5rem;
+		letter-spacing: 1px;
+	}
 	.main__title,
 	.main__description {
 		width: 100%;
 	}
 	.main__description {
-		font-size: 1.5rem;
+		font-size: 1.65rem;
+		padding-right: 8rem;
 	}
 	.main__logo {
 		padding: 0 8rem;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		column-gap: 2rem;
+		column-gap: 5rem;
+		row-gap: 2rem;
 	}
 	.main__logo img {
 		width: 10rem;
@@ -296,7 +343,7 @@ p {
 		width: 100%;
 	}
 	.join__button {
-		width: 40%;
+		width: 25%;
 		font-size: 1.6rem;
 		padding: 1.5rem 2.5rem;
 	}
@@ -309,5 +356,35 @@ p {
 	}
 	.footer__icon-group {
 		flex-basis: unset;
+	}
+}
+
+@media screen and (max-width: 428px) {
+	html {
+		font-size: 10px;
+	}
+
+	.container {
+		padding-left: 2.5rem !important;
+		padding-right: 2.5rem !important;
+	}
+	.main__title {
+		font-size: 3.5rem;
+	}
+	.main__description {
+		font-size: 1.5rem;
+		padding-right: 2rem;
+	}
+
+	.main__logo {
+		row-gap: 1rem;
+		column-gap: 2rem;
+	}
+	.main__logo img {
+		width: 8.5rem;
+	}
+
+	.join__button {
+		width: 38%;
 	}
 }
