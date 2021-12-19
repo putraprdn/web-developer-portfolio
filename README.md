@@ -5,21 +5,10 @@ This is a solution to the [Web Developer Portfolio on Codewell](https://www.code
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [To do](#to-do)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
 - [Author](#author)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the section depending on their device's screen size
 
 ### To do
 
@@ -27,27 +16,18 @@ Users should be able to:
 - [x] Second section
 - [x] Third section
 - [x] Active state
-- [ ] Tablet responsive
-- [ ] Mobile responsive
+- [x] Tablet responsive
+- [x] Mobile responsive
 
 ### Screenshot
 
 Soon!
-<!-- ![](#) -->
+![](https://github.com/putraprdn/web-developer-portofolio/blob/master/Design/Landing%20Page%20-%20Desktop%20View.png?raw=true)
 
 ### Links
 
 - Live Site URL: [Via Github](https://putraprdn.github.io/web-developer-portofolio/)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-
-## Author
 
 **#1 Author**
 - LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
