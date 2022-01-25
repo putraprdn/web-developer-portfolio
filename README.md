@@ -22,7 +22,7 @@ This is a solution to the [Web Developer Portfolio on Codewell](https://www.code
 
 ### Links
 
-- Live Site URL: [Via Github](https://putraprdn.github.io/web-developer-portofolio/)
+- Live Site: [Via Github](https://putraprdn.github.io/web-developer-portfolio/)
 
 
 **#1 Author**
