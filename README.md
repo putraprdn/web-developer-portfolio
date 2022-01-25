@@ -12,16 +12,12 @@ This is a solution to the [Web Developer Portfolio on Codewell](https://www.code
 
 ### To do
 
-- [x] Main section
-- [x] Second section
-- [x] Third section
+- [x] Content
 - [x] Active state
-- [x] Tablet responsive
-- [x] Mobile responsive
+- [x] Responsive
 
 ### Screenshot
 
-Soon!
 ![](https://github.com/putraprdn/web-developer-portofolio/blob/master/Design/Landing%20Page%20-%20Desktop%20View.png?raw=true)
 
 ### Links
@@ -31,7 +27,3 @@ Soon!
 
 **#1 Author**
 - LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
-
-<!-- **#2 Author**
-- LinkedIn - [#](https://github.com/user)
-- Github - [@#](https://github.com/user) -->
